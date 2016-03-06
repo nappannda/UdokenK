@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="topppingId">
+        <item>siru_daikon_image2</item>
+        <item>siru_hanpen_image2</item>
+        <item>siru_jaga_image2</item>
+        <item>siru_konnyaku_image2</item>
+        <item>siru_motikin_image2</item>
+        <item>siru_tikuwaa_image2</item>
+        <item>siru_niku_image2</item>
+        <item>siru_tamago_image2</item>
+        <item>siru_tukune_image2</item>
+        <item>siru_ganmo_image2</item>
+        <item>siru_aji_image2</item>
+        <item>siru_ebiten_image2</item>
+        <item>siru_kabotya_image2</item>
+        <item>siru_kakiage_image2</item>
+        <item>siru_korokke_image2</item>
+        <item>siru_tikuwa_image2</item>
+        <item>siru_menti_image2</item>
+        <item>siru_satumaimo_image2</item>
+        <item>siru_uzura_image2</item>
+        <item>siru_nasu_image2</item>
+        <item>siru_omusubi_image2</item>
+        <item>siru_ume_image2</item>
+        <item>siru_inari_image2</item>
+        <item>siru_tirasi_image</item>
+
+    </string-array>
+</resources>

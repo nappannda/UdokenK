@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="true">
+     <item
+        android:drawable="@drawable/siru_animation_konpira1"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/siru_animation_konpira2"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/siru_animation_konpira3"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/siru_animation_konpira4"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/siru_animation_konpira5"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/siru_animation_konpira6"
+        android:duration="1000"/>
+    <item
+        android:drawable="@drawable/siru_animation_konpira7"
+        android:duration="20000"/>
+</animation-list>

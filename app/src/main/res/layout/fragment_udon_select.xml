@@ -1,0 +1,157 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sakasho.udokenk.Fragment.UdonSelectFragment"
+    android:id="@+id/udon_linear">
+
+    <ImageView
+        android:id="@+id/udon_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/udon_select_empty"
+        android:layout_weight="3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/udon_big_image"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:src="@drawable/udon_big_image_off" />
+
+        <ImageView
+            android:id="@+id/udon_middle_image"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:src="@drawable/udon_middle_image_off" />
+
+        <ImageView
+            android:id="@+id/udon_small_image"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:src="@drawable/udon_small_image_off" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/udon_kanban1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@drawable/udon_kake_kanban_off" />
+
+            <ImageView
+                android:id="@+id/udon_kanban2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@drawable/udon_kare_kanban_off" />
+
+            <ImageView
+                android:id="@+id/udon_kanban3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@drawable/udon_kitune_kanban_off" />
+
+            <ImageView
+                android:id="@+id/udon_kanban4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@drawable/udon_zaru_kanban_off" />
+
+            <ImageView
+                android:id="@+id/udon_kanban5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@drawable/udon_riki_kanban_off" />
+
+            <ImageView
+                android:id="@+id/udon_kanban6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@drawable/udon_tukimi_kanban_off" />
+
+            <ImageView
+                android:id="@+id/udon_kanban7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@drawable/udon_niku_kanban_off" />
+
+            <ImageView
+                android:id="@+id/udon_kanban8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@drawable/udon_hiyasi_kanban_off" />
+
+            <ImageView
+                android:id="@+id/udon_kanban9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@drawable/udon_kamatama_kanban_off" />
+
+            <ImageView
+                android:id="@+id/udon_kanban10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@drawable/udon_bukkake_kanban_off" />
+
+            <ImageView
+                android:id="@+id/udon_kanban11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@drawable/udon_wakame_kanban_off" />
+
+            <ImageView
+                android:id="@+id/udon_kanban12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@drawable/udon_tenpura_kanban_off" />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/udon_next_image"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="right"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/all_next_btn"
+        android:scaleType="fitXY"
+        android:layout_weight="1" />
+</LinearLayout>

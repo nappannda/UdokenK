@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="all_nutrition_calorie">
+        <item>all_nutrition_calorie1</item>
+        <item>all_nutrition_calorie2</item>
+        <item>all_nutrition_calorie3</item>
+        <item>all_nutrition_calorie4</item>
+        <item>all_nutrition_calorie5</item>
+        <item>all_nutrition_calorie6</item>
+    </string-array>
+    <string-array name="all_nutrition_protein">
+        <item>all_nutrition_protein1</item>
+        <item>all_nutrition_protein2</item>
+        <item>all_nutrition_protein3</item>
+        <item>all_nutrition_protein4</item>
+        <item>all_nutrition_protein5</item>
+        <item>all_nutrition_protein6</item>
+    </string-array>
+    <string-array name="all_nutrition_lipid">
+        <item>all_nutrition_lipid1</item>
+        <item>all_nutrition_lipid2</item>
+        <item>all_nutrition_lipid3</item>
+        <item>all_nutrition_lipid4</item>
+        <item>all_nutrition_lipid5</item>
+        <item>all_nutrition_lipid6</item>
+    </string-array>
+    <string-array name="all_nutrition_carbohydrate">
+        <item>all_nutrition_carbohydrate1</item>
+        <item>all_nutrition_carbohydrate2</item>
+        <item>all_nutrition_carbohydrate3</item>
+        <item>all_nutrition_carbohydrate4</item>
+        <item>all_nutrition_carbohydrate5</item>
+        <item>all_nutrition_carbohydrate6</item>
+    </string-array>
+    <string-array name="all_nutrition_salt">
+        <item>all_nutrition_salt1</item>
+        <item>all_nutrition_salt2</item>
+        <item>all_nutrition_salt3</item>
+        <item>all_nutrition_salt4</item>
+        <item>all_nutrition_salt5</item>
+        <item>all_nutrition_salt6</item>
+    </string-array>
+    <string-array name="all_nutrition_calcium">
+        <item>all_nutrition_calcium1</item>
+        <item>all_nutrition_calcium2</item>
+        <item>all_nutrition_calcium3</item>
+        <item>all_nutrition_calcium4</item>
+        <item>all_nutrition_calcium5</item>
+        <item>all_nutrition_calcium6</item>
+    </string-array>
+    <string-array name="all_nutrition_dietary_fiber">
+        <item>all_nutrition_dietary_fiber1</item>
+        <item>all_nutrition_dietary_fiber2</item>
+        <item>all_nutrition_dietary_fiber3</item>
+        <item>all_nutrition_dietary_fiber4</item>
+        <item>all_nutrition_dietary_fiber5</item>
+        <item>all_nutrition_dietary_fiber6</item>
+    </string-array>
+
+</resources>

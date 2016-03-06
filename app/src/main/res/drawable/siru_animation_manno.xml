@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true" >
+
+    <item
+        android:drawable="@drawable/siru_animation_manno1"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/siru_animation_manno2"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/siru_animation_manno3"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/siru_animation_manno4"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/siru_animation_manno5"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/siru_animation_manno6"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/siru_animation_manno7"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/siru_animation_manno8"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/siru_animation_manno9"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/siru_animation_manno10"
+        android:duration="20000"/>
+
+</animation-list>

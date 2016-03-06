@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sakasho.udokenk.Fragment.SiruDescriptionFragment"
+    android:background="@drawable/siru_background">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/siru_description_image1"
+        android:layout_weight="1"
+        android:src="@drawable/siru_description"
+        android:layout_margin="5dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/siru_description_image2"
+            android:src="@drawable/siru_description1"
+            android:layout_weight="3"
+            android:layout_margin="5dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/siru_animation_image"
+                android:layout_weight="2" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/siru_description_image3"
+                android:layout_weight="2"
+                android:src="@drawable/siru_description2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/siru_description_next_image"
+                android:src="@drawable/all_next_btn" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

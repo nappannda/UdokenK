@@ -1,0 +1,599 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/siru_background"
+    android:orientation="vertical"
+    tools:context="com.sakasho.udokenk.Fragment.SiruSelectToppingFragment">
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3">
+
+                <LinearLayout
+                    android:id="@+id/siru_tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/siru_topping_background">
+
+                    <HorizontalScrollView
+                        android:id="@+id/siru_horizontal_scrollView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="3"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_daikon_image1" />
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_hanpen_image1" />
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image3"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_jaga_image1" />
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image4"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_konnyaku_image1" />
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image5"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_motikin_image1" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:paddingTop="5dp">
+
+                                <TextView
+                                    android:id="@+id/TextV1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_daikon" />
+
+                                <TextView
+                                    android:id="@+id/TextV2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_hanpen" />
+
+                                <TextView
+                                    android:id="@+id/TextV3"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_jaga" />
+
+                                <TextView
+                                    android:id="@+id/TextV4"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_konnyaku" />
+
+                                <TextView
+                                    android:id="@+id/TextV5"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_motikin" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="3"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image6"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_tikuwaa_image1" />
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image7"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_niku_image1" />
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image8"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_tamago_image1" />
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image9"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_tukune_image1" />
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image10"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_ganmo_image1" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:paddingTop="5dp">
+
+                                <TextView
+                                    android:id="@+id/TextV6"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_tikuwa" />
+
+                                <TextView
+                                    android:id="@+id/TextV7"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_niku" />
+
+                                <TextView
+                                    android:id="@+id/TextV8"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_tamago" />
+
+                                <TextView
+                                    android:id="@+id/TextV9"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_tukune" />
+
+                                <TextView
+                                    android:id="@+id/TextV10"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_ganmo" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/siru_tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <HorizontalScrollView
+                        android:id="@+id/siru_horizontal_scrollView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/siru_topping_background">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="3"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image11"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_aji_image1" />
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image12"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_ebiten_image1" />
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image13"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_kabotya_image1" />
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image14"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_kakiage_image1" />
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image15"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_korokke_image1" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginTop="15dp"
+                                android:layout_weight="1">
+
+                                <TextView
+                                    android:id="@+id/TextV11"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_aji" />
+
+                                <TextView
+                                    android:id="@+id/TextV12"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_ebiten" />
+
+                                <TextView
+                                    android:id="@+id/TextV13"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_kabotya" />
+
+                                <TextView
+                                    android:id="@+id/TextV14"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_kakiage" />
+
+                                <TextView
+                                    android:id="@+id/TextV15"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_korokke" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="3"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image16"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_tikuwa_image1" />
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image17"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_menti_image1" />
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image18"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_satumaimo_image1" />
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image19"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_uzura_image1" />
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image20"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_nasu_image1" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginTop="15dp"
+                                android:layout_weight="1">
+
+                                <TextView
+                                    android:id="@+id/TextV16"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_tikuwa" />
+
+                                <TextView
+                                    android:id="@+id/TextV17"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_mentikatu" />
+
+                                <TextView
+                                    android:id="@+id/TextV18"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_satumaimo" />
+
+                                <TextView
+                                    android:id="@+id/TextV19"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_uzura" />
+
+                                <TextView
+                                    android:id="@+id/TextV22"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_nasu" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/siru_tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <HorizontalScrollView
+                        android:id="@+id/siru_horizontal_scrollView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/siru_topping_background">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="3"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image21"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_omusubi_image1" />
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image22"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_ume_image1" />
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image23"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_inari_image1" />
+
+                                <ImageView
+                                    android:id="@+id/siru_topping_image24"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:src="@drawable/siru_tirasi_image" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginTop="15dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/TextV20"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_omusubi" />
+
+                                <TextView
+                                    android:id="@+id/TextV21"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_ume" />
+
+                                <TextView
+                                    android:id="@+id/TextV23"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_inari" />
+
+                                <TextView
+                                    android:id="@+id/TextV24"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:text="@string/siru_tirasi" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="3"></LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginTop="15dp"
+                                android:layout_weight="1"></LinearLayout>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/siru_torei">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/siru_select_image1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/siru_select_image2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/siru_select_image3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/siru_select_topping_next"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="right"
+        android:layout_weight="1"
+        android:src="@drawable/all_next_btn" />
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="udon_images">
+        <item>@drawable/awase_bukkake_select_image</item>
+        <item>@drawable/awase_kare_select_image</item>
+        <item>@drawable/awase_kitune_select_image</item>
+        <item>@drawable/awase_zaru_select_image</item>
+        <item>@drawable/awase_tikara_select_image</item>
+        <item>@drawable/awase_tukimi_select_image</item>
+        <item>@drawable/awase_niku_select_image</item>
+        <item>@drawable/awase_hiyasi_select_image</item>
+        <item>@drawable/awase_kama_select_image</item>
+        <item>@drawable/awase_bukkake_select_image</item>
+        <item>@drawable/awase_wakame_select_image</item>
+        <item>@drawable/awase_ten_select_image</item>
+    </array>
+
+    <array name="udon_top_images">
+        <item>@drawable/awase_bukkake_top_image</item>
+        <item>@drawable/awase_kare_top_image</item>
+        <item>@drawable/awase_kitune_top_image</item>
+        <item>@drawable/awase_zaru_top_image</item>
+        <item>@drawable/awase_tikara_top_image</item>
+        <item>@drawable/awase_tukimi_top_image</item>
+        <item>@drawable/awase_niku_top_image</item>
+        <item>@drawable/awase_hiyasi_top_image</item>
+        <item>@drawable/awase_kamatama_top_image</item>
+        <item>@drawable/awase_bukkake_top_image</item>
+        <item>@drawable/awase_wakame_top_image</item>
+        <item>@drawable/awase_tenpura_top_image</item>
+    </array>
+
+    <string-array name="udon_names">
+        <item>"かけうどん"</item>
+        <item>カレーうどん</item>
+        <item>きつねうどん</item>
+        <item>ざるうどん</item>
+        <item>力うどん</item>
+        <item>月見うどん</item>
+        <item>肉うどん</item>
+        <item>冷やしうどん</item>
+        <item>釜玉うどん</item>
+        <item>ぶっかけうどん</item>
+        <item>わかめうどん</item>
+        <item>天ぷらうどん</item>
+    </string-array>
+
+    <array name="okazu_images">
+        <item>@drawable/awase_okazu_sabamisoni</item>
+        <item>@drawable/awase_okazu_sanma</item>
+        <item>@drawable/awase_okazu_syake</item>
+        <item>@drawable/awase_okazu_gyouza</item>
+        <item>@drawable/awase_okazu_syumai</item>
+        <item>@drawable/awase_okazu_okonomiyaki</item>
+        <item>@drawable/awase_okazu_mabodohu</item>
+        <item>@drawable/awase_okazu_tinjaorosu</item>
+        <item>@drawable/awase_okazu_pokubittu</item>
+        <item>@drawable/awase_okazu_hanbagu</item>
+        <item>@drawable/awase_okazu_piman</item>
+        <item>@drawable/awase_okazu_syogayaki</item>
+        <item>@drawable/awase_okazu_nikujaga</item>
+        <item>@drawable/awase_okazu_yasai</item>
+        <item>@drawable/awase_okazu_teriyaki</item>
+        <item>@drawable/awase_okazu_kinpiragobo</item>
+        <item>@drawable/awase_okazu_gomoku</item>
+        <item>@drawable/awase_okazu_rorukyabetu</item>
+        <item>@drawable/awase_okazu_hourenso</item>
+        <item>@drawable/awase_okazu_momendohu</item>
+        <item>@drawable/awase_okazu_hiziki</item>
+        <item>@drawable/awase_okazu_goyatyanpuru</item>
+        <item>@drawable/awase_okazu_minitomato</item>
+        <item>@drawable/awase_okazu_tikuzenni</item>
+        <item>@drawable/awase_okazu_sunomono</item>
+        <item>@drawable/awase_okazu_tataki</item>
+        <item>@drawable/awase_okazu_tyawanmusi</item>
+        <item>@drawable/awase_okazu_kouyadohu</item>
+    </array>
+
+    <string-array name="okazu_names">
+        <item>鯖の味噌煮</item>
+        <item>さんまの\r\n塩焼き</item>
+        <item>鮭の塩焼き</item>
+        <item>餃子</item>
+        <item>シュウマイ</item>
+        <item>お好み焼き</item>
+        <item>麻婆豆腐</item>
+        <item>チンジャオ\r\nロース</item>
+        <item>ポーク\r\nビーンズ</item>
+        <item>ハンバーグ</item>
+        <item>ピーマンの\r\n肉詰め</item>
+        <item>生姜焼き</item>
+        <item>肉じゃが</item>
+        <item>野菜炒め</item>
+        <item>鳥の照り焼き</item>
+        <item>きんぴらごぼう</item>
+        <item>五目煮</item>
+        <item>ロールキャベツ</item>
+        <item>ホウレンソウの\r\n胡麻和え</item>
+        <item>木綿豆腐</item>
+        <item>ひじきの煮物</item>
+        <item>ゴーヤチャンプル</item>
+        <item>ミニトマト</item>
+        <item>筑前煮</item>
+        <item>酢の物</item>
+        <item>かつおの\r\nたたき</item>
+        <item>茶碗蒸し</item>
+        <item>高野豆腐</item>
+    </string-array>
+
+</resources>

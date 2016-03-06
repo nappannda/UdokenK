@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/anim_container1_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    tools:context="com.sakasho.udokenk.Fragment.Animation1Fragment">
+
+
+    <ImageView
+        android:id="@+id/anim_title1_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/anim_title" />
+
+    <ImageView
+        android:id="@+id/anim_animation1_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/anim_tap1_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/anim_tap_text"
+        android:textColor="#69696969"
+        android:textSize="18sp"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:id="@+id/anim_description1_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:lineSpacingExtra="8.0sp"
+        android:textColor="#696969"
+        android:textSize="17sp" />
+</LinearLayout>
